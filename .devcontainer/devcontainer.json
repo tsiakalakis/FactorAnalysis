@@ -1,0 +1,12 @@
+{
+    "name": "R Latest",
+    "image": "rocker/r-ver:latest",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "Ikuyadeu.r"
+        ]
+      }
+    }
+  }
+  
