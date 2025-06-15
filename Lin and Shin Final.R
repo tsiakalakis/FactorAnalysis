@@ -69,7 +69,7 @@ summary_row <- data.frame(
 )
 
 final_df <- bind_rows(summary_df, summary_row) 
-
+print(final_df)
 # Εκτίμηση μέσων από Gamma
 means_vec <- numeric(est_multi$R)
 for (j in 1:est_multi$R) {
